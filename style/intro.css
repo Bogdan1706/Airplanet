@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url('./fonts/Roboto-Bold_1.ttf');
+}
+
+
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/intro/brodowicz.jpg);
+  background-size: 110% 113%;
+  background-position: 50% 50%;
+  background-color: #fff;
+  opacity: .4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.animation__block {
+  position: absolute;
+  top:33%;
+  left: 43%;
+  display:flex; 
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  animation: bounce 1s;
+  animation-delay: 250ms;
+}
+
+.animation__block-logo {
+  margin-bottom: 2.5em;
+}
+
+.animation__block-link {
+  display: flex;
+  font-family: "Roboto-Bold";
+  font-size: .75em;
+  width: 12.5em;
+  border: 1px solid #3366cc;
+  border-radius: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 3;
+  padding-left: 1.25em;
+  color: #3366cc;
+}
+
+.animation__block-link__img {
+  margin-left: 0.625em;
+  margin-top: 0.7em;
+  width: 20px;
+  background-image: url(../img/reviews/form/form-air-hover.png);
+  background-repeat: no-repeat;
+}
+
+.animation__block-link:hover {
+  background-color: #3366cc;
+  color: #fff;
+}
+
+.animation__block-link:hover .animation__block-link__img {
+  background-image: url(../img/reviews/form/form-air.png);
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  15% {
+    transform: translateY(-50px);
+  }
+
+  30% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  70% {
+    transform: translateY(0);
+  }
+
+  80% {
+    transform: translateY(-20px);
+  }
+
+  90% {
+    transform: translateY(0);
+  }
+}
+
+  

@@ -1,0 +1,279 @@
+@import 'base.css';
+@import 'header.css';
+@import 'sidebar.css';
+@import 'crumbs.css';
+@import 'footer.css';
+@import 'container.css';
+
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url('./fonts/Roboto-Bold_1.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Rgular";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-light";
+    src: url('./fonts/Roboto-Light_1.ttf');
+}
+
+@font-face {
+    font-family: "GothamPro";
+    src: url('./fonts/gothampro_black.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-lightItalic";
+    src: url('./fonts/Roboto-LightItalic_1.ttf');
+}
+
+* {
+    box-sizing:border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container_flex {
+    display: flex ;
+}
+
+.team {
+    width: 56.25em;
+    
+}
+
+.team__header {
+    font-family: "Roboto-Bold";
+    font-size: 3.0625em;
+    color: #333;
+    margin: 0 0 1em 0;
+    line-height: 0.8;
+}
+
+li {
+    list-style: none;
+}
+
+.team-image {
+    position: relative;
+    height: 10.3125em;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.team-img {
+    width: 10.3125em;
+}
+
+.team-image__fone {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 10.3125em;
+    height: 10.3125em;
+    background-color: rgba(102, 102, 153, 0.61);
+}
+
+.team-image__text {
+    font-family: "Roboto-Bold";
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.position-alex {
+    position: absolute;
+    top: 41%;
+    left:21%;
+}
+
+.position-inna {
+    position: absolute;
+    top: 41%;
+    left: 34%;
+}
+
+.position-boris {
+    position: absolute;
+    top: 41%;
+    left: 31%;
+}
+
+.position-elina {
+    position:absolute;
+    top: 45%;
+    left: 29%;
+}
+
+.position-elena {
+    position:absolute;
+    top: 45%;
+    left: 30%;
+}
+
+.position-yrii {
+    position:absolute;
+    top: 44%;
+    left: 31%;
+}
+
+.team-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.team-item {
+    width: 18.0625em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+    margin-bottom: 3.125em;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto-Bold";
+    font-size: 0.875em;
+    color:#333333;
+}
+
+.team-content__name {
+    font-size: 1.125em;
+    color: #333;
+    margin: 1.38888em 0 0.555555em 0;
+}
+
+.team-content__name--mod {
+    text-align: center;
+    padding: 0 2.5em 0 2.5em;
+}
+
+.team-content__profession {
+    color: #666699;
+    margin:0 0 0.875em 0;
+}
+
+.team-content__text {
+    font-family: "Roboto-light";
+    font-size: 1.125em;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    line-height: 1.4em;
+}
+
+
+.partners-header {
+    font-family: "Roboto-Bold" ;
+    font-size: 3.0625em;
+    color: #333333;
+}
+
+.partners-box {
+    width: 53.75em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-content: space-between;
+    margin-bottom: 6.25em;
+}
+
+
+.partners-img__bmp {
+    width:12.5em;
+    height: 5.625em;
+    background-image: url(../img/partners-logo/team-bmp-hover.png);
+    background-size: cover;
+    margin: 0 0 2.8125em 2.8125em;
+}
+
+.partners-img__bmp:hover {
+   cursor:pointer;
+    background-image: url(../img/partners-logo/team-bmp.png);
+}
+
+.partners-img__tetra {
+    width:12.5em;
+    height: 5.625em;
+    background-image: url(../img/partners-logo/team-tetra-hover.png);
+    background-size: cover;
+    margin: 0 0 2.8125em 2.8125em;
+}
+
+.partners-img__tetra:hover {
+    cursor:pointer;
+    background-image: url(../img/partners-logo/team-tetra.png);
+}
+
+.partners-img__sibavio {
+    width:12.5em;
+    height: 5.625em;
+    background-image: url(../img/partners-logo/team-sibair-hover.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin: 0 0 2.8125em 2.8125em; 
+}
+
+.partners-img__sibavio:hover {
+    cursor:pointer;
+    background-image: url(../img/partners-logo/team-sibair.png);
+    background-size: 100%;
+}
+
+.partners-img__one {
+    width:12.5em;
+    height: 5.625em;
+    background-image: url(../img/partners-logo/team-air-hover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 0 2.8125em;
+}
+
+.partners-img__one:hover {
+    cursor:pointer;
+    background-image: url(../img/partners-logo/team-air.png);
+}
+
+.partners-img__bing {
+    width:12.5em;
+    height: 5.625em;
+    background-image: url(../img/partners-logo/team-bing-hover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 0 2.8125em;
+}
+
+.partners-img__bing:hover {
+    cursor:pointer;
+    background-image: url(../img/partners-logo/team-bing.png);
+}
+
+.partners-img__ural {
+    width:12.5em;
+    height: 5.625em;
+    background-image: url(../img/partners-logo/team-ural-hover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 0 2.8125em;
+}
+
+.partners-img__ural:hover {
+    cursor:pointer;
+    background-image: url(../img/partners-logo/team-ural.png);
+}
+

@@ -1,0 +1,12 @@
+.container_flex {
+  display: flex ;
+}
+
+
+.page-fill {
+  margin-left: 4.6875em;
+}
+
+.wrapper {
+  overflow: hidden;
+}

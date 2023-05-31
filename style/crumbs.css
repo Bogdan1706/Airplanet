@@ -1,0 +1,20 @@
+
+.crumbs {
+    display: flex;
+    margin-bottom: 2.1429em;
+    font-family: "Roboto-lightItalic";
+    font-size: 0.875em;
+}
+
+.crumbs-link__primary {
+    margin-right: 0.214285em;
+    color: #6f84cd;
+}
+
+.crumbs-link__reviews {
+    margin-left: 0.214285em;
+}
+.crumbs-link__reviews--activ {
+    color: #656464;
+    text-decoration: none;
+}

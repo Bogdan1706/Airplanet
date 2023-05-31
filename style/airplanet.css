@@ -1,0 +1,33 @@
+@import 'base.css';
+@import 'header.css';
+@import 'container.css';
+@import 'sidebar.css';
+@import 'baner.css';
+@import 'tariff.css';
+@import 'news.css';
+@import 'pagination.css';
+@import 'footer.css';
+
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url('./fonts/Roboto-Bold_1.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Rgular";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-light";
+    src: url('./fonts/Roboto-Light_1.ttf');
+}
+
+@font-face {
+    font-family: "GothamPro";
+    src: url('./fonts/gothampro_black.ttf');
+}
+
+
+

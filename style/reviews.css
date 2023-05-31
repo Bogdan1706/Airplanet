@@ -1,0 +1,319 @@
+@import 'base.css';
+@import 'header.css';
+@import 'sidebar.css';
+@import 'crumbs.css';
+@import 'footer.css';
+@import 'pagination.css';
+@import 'container.css';
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url('./fonts/Roboto-Bold_1.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-light";
+    src: url('./fonts/Roboto-Light_1.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-lightItalic";
+    src: url('./fonts/Roboto-LightItalic_1.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Rgular";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+* {
+    box-sizing:border-box;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.reviews {
+    font-family: "Roboto-light";
+    font-size: 1.125em;
+}
+
+.reviews__header {
+    font-family: "Roboto-Bold";
+    font-size: 2.722222em; 
+    color: #262424;
+    margin: 0;
+    line-height: 0.8;
+    margin-bottom: 0.408163em;
+}
+
+.reviews__content-list {
+    margin: 0;
+    padding: 0;
+}
+
+.reviews__content-item {
+    display: flex;
+    padding: 1.666666em 0 1.666666em 0;
+}
+
+.reviews__content-img {
+    width: 8.888888em;
+    height: 8.888888em;
+    border-radius: 50%;
+}
+
+.img--women {
+    background-image: url(../img/reviews/comments.jpg);
+    background-size: 100%;
+}
+
+.img--men {
+    background-image: url(../img/reviews/comments-men.jpg);
+    background-size: 100%;
+}
+
+.img--logo {
+    background-image: url(../img/reviews/comments-logo.jpg);
+    background-size: 100%;
+}
+
+.img--granny {
+    background-image: url(../img/reviews/comments-granny.jpg);
+    background-size: 100%;
+}
+
+.reviews__content-fill {
+    margin-left: 1.111111em;
+}
+
+.fill-data {
+    font-size: 0.777777em;
+    color: #666666;
+}
+
+.fill-header {
+    font-family: "Roboto-Bold";
+    color: #333;
+    padding: 0.77777em 0 1em 0;
+}
+
+.content-fill__text {
+    line-height: 1.3;
+    padding: 0 1em 0 0;
+    color: #333;
+}
+
+
+.booking {
+    height: 9.4444444em;
+    background-color: #76b46f;
+    color: #fff;
+    font-family:"Roboto-light";
+    font-size: 1.125em;
+    background-image: url(../img/reviews/cta/comments-sta.png);
+
+}
+
+.booking-container {
+  margin: 0 auto;
+  padding-top: 1.666666em;
+  padding-bottom: 2.5em;
+}
+
+
+.booking-message {
+    width: 58%;
+    margin: 0.555555em auto;
+    margin-left: 17em;
+}
+
+.booking-message .booking-link {
+    color: #fff;
+    font-family: "Roboto-Bold" ;
+}
+ 
+.booking-message .booking-phon {
+    color: #fff;
+    font-family: "Roboto-Bold" ;
+}
+
+
+
+.form {
+    width: 50em;
+    background-color: #f4f4f4;
+    border-radius: 3px; 
+    margin: 4.285714em 0 3.571428em 31.714285em;
+    padding: 3.571428em 0 0 5em; 
+    font-family: "Roboto-light";
+    font-size: 0.875em;
+    color: #262424;
+}
+
+.form-heaedr {
+    font-family:"Roboto-Bold";
+    font-size: 3.5em;
+    margin: 0 0 0.612244em 0; 
+}
+
+.form-user{ 
+    display: flex;
+}
+
+.form-profile {
+    margin: 0 1.428571em 0.714285em 0;
+}
+
+.form-username__text {
+    width: 19.285714em;
+    height: 3.571428em;
+    border: none;
+    padding-left: 0.714285em;
+    margin-top: 0.714285em;
+}
+
+.form-username__text:focus {
+    outline:none;
+    border: 2px solid #5972b146;
+}
+
+.form-reviews__text {
+    width: 40em;
+    height: 6.428571em;
+    border: 0 solid #fff;
+    margin-top: 0.714285em;
+    resize: none;
+    padding: 0.357142em 0 0 0.714285em;
+}
+
+.form-reviews__text:focus {
+    outline:none;
+    border: 2px solid #5972b146;
+}
+
+.form-radio {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3.571428em;
+}
+
+
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5.833333em;
+    width: 12.5em;
+    height: 3.75em;
+    border: none;
+    background-color:#5972b1 ;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Roboto-Bold";
+    font-size: 0.857142em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 1.666666em;
+    line-height: 1.25em;
+    cursor: pointer;
+}
+
+
+.btn-img {
+    width: 1.416666em;
+    height: 1.666666em;
+    margin-left: 0.5833em;
+    background-image: url('../img/reviews/form/form-air.png');
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #5972b1;
+    
+}
+
+.btn:hover .btn-img {
+    background-image: url('../img/reviews/form/form-air-hover.png');
+}
+
+.form-radio__title {
+    margin-top: 1.428571em;
+}
+
+.form-radio__flex {
+    display: flex;
+    margin-top: -0.7143em;
+}
+
+.form-radio__left {
+    margin-right: 1.428571em;
+}
+
+.form-radio__select {
+    display: none;
+}
+
+.form-radio__select+label {
+   display: inline-flex;
+   align-items: center;
+   user-select: none;
+   margin-right: 1.428571em;
+   
+}
+
+.form-radio__select+label::before {
+    content: '';
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 50%;
+    margin-right: 0.4em;
+    background-color: #f7f7f7 ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.form-radio__select:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #5e5f5e;
+}
+
+.form-radio__select:not(:disabled):active+label::before {
+    border-color: #056822;
+    background-color: #dfe2e6;
+}
+
+.form-radio__select:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+.form-radio__select:focus:not(:checked)+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(236, 132, 150, 0.25);
+}
+
+.form-radio__select:checked+label::before {
+    border-color: #7085bb;
+    background-color: #f0f0f0;
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='4' fill='000011' /%3e%3c/svg%3e"); */
+    background-image: url('../img/radio_btn.svg');
+    color: #6f84cd;
+}
+
+.form-radio__select:checked+label {
+    color: #5972b1;
+}
+
+
+
+
+    
+   
+    
