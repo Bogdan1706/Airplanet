@@ -1,0 +1,116 @@
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+  font-family: "Roboto-Bold";
+  color: #fff;
+  background-color: #5972b1;
+  height: 4.6875em;
+  margin-bottom: 2.8125em;
+}
+
+.logo {
+  margin: 1.1875em 0 0 1.25em;
+
+
+}
+.contacts {
+  margin: 1.1875em 1.25em 0 0 ;
+  text-align: end;
+}
+
+.contacts__phon {
+    text-decoration: none;
+    font-size: 1.3125em;
+    color: #fff;
+}
+
+.contacts__link {
+  font-size: 0.875em;
+  color: #fff;
+}
+
+
+
+.contacts__work-scheduie{
+  text-align: right;
+  position: relative;
+  display: inline-block;
+}
+
+.contacts__work-scheduie:hover .contacts__link {
+  color: #d5dad9;
+}
+
+
+.contacts__work-scheduie:hover .dropdown__menu {
+  left: 0;
+  opacity: 2;
+  z-index: 1;
+  
+}
+
+.dropdown__menu {
+  position: absolute;
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+  width: 10.625em;
+  box-shadow: 0px 0px 11px -5px rgb(0, 0, 0);
+  top: 0.775em;
+  margin-top: 1.25em;
+  margin-left: -4.125em;
+  left: -9999px;
+  opacity: 3;
+  transition: opacity 2s;
+
+}
+  
+  .dropdown__menu:before {
+    content: " ";
+    display: block;
+    height: 1.875em;
+    left: 0;
+    right: 0;
+    top: -1.8125em;
+    position: absolute;
+  }
+  
+  .triangle {
+    position: absolute;
+    border: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -0.625em;
+    right: 0.1875em;
+    background-color: #fff;
+    border-left-color: #4b73b5;
+    border-top-color: #4b73b5;
+    border-right-color: #4b73b5;
+    border-top-width: 0;
+  
+  }
+
+  .dropdown__list {
+    padding-left: 1em;
+    font-size: 0.875em;
+  }
+  
+  .dropdown__item {
+    text-align: left;
+    color: #3366cc;
+    list-style: none;
+  }
+  
+  .dropdown__item-lunch {
+    font-family: "Roboto-light";
+    color: #333;
+  }
+  
+  .item__lunch-clock {
+    font-family: "Roboto-light";
+    color: #333;
+  }

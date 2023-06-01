@@ -1,0 +1,20 @@
+.logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 160px;
+  height: 193px;
+  z-index: 1;
+}
+
+
+.flower {
+  background-image: url("flower.png");
+  position: absolute;
+  left: 265px;
+  top: 885px;
+  width: 27px;
+  height: 31px;
+  z-index: 101;
+}

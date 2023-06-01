@@ -1,0 +1,27 @@
+
+.banner {
+    position: relative;
+    text-align: end;
+    margin: 0 2.25em 2.25em 0;
+}
+
+.banner__img {
+    position: relative;
+}
+
+.banner__text {
+    position: absolute;
+    top: -14%;
+    left: 55%;
+    font-family: "GothamPro";
+    font-size: 9em;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    opacity: .2;
+}
+
+.banner__airplaner {
+    position: absolute;
+    top: -16%;
+    left: 30%;
+}

@@ -1,0 +1,9 @@
+.container {
+    max-width: 68.75em;
+    margin: 0 auto;
+}
+
+.container-headers {
+    display: flex;
+}
+
